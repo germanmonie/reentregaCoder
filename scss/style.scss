@@ -1,0 +1,203 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+color:lavender;
+
+}
+
+.nav-item{
+margin-left:100px;
+
+}
+
+.wh{
+width:fit-content;
+display:flex;
+align-items:center;
+justify-items:center;
+margin-left:150px;
+}
+
+/*----------HEADER-------------------*/
+.body{
+  font-family: 'Staatliches', cursive; color: lavender;
+  background-image: url(../img/nv.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: none;
+  }
+  .bodyCarne{
+  font-family: 'Staatliches', cursive; color: lavender;
+     background-image: linear-gradient(cornsilk, burlywood);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-image: url(../img/pexels-klaus-nielsen-6294402.jpg);
+  
+  }
+  .bodySandwiches{
+  font-family: 'Staatliches', cursive; color: lavender;
+  background-image: linear-gradient(cornsilk, burlywood);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/pexels-klaus-nielsen-6294402.jpg);
+  }
+  .bodySalon{
+  font-family: 'Staatliches', cursive; color: lavender;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/nv.jpg);
+     
+  
+  }
+  .bodyEntradas{ 
+  font-family: 'Staatliches', cursive; color: lavender;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/pexels-klaus-nielsen-6294402.jpg);
+  margin: 20px;
+  color: lavender;
+  }
+  .bodyPastas{
+  font-family: 'Staatliches', cursive; color: lavender;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: cornsilk;
+  background-image: linear-gradient(to top, cornsilk, burlywood);
+  background-image: url(../img/pexels-klaus-nielsen-6294402.jpg);
+  
+  }
+.title{
+font-size:larger;
+font-weight:bolder;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+
+header{
+background-repeat:no-repeat;
+
+}
+h1{
+margin:50px;
+}
+h2{
+display:flex;
+align-items:center;
+justify-content:center;
+margin:50px;
+}
+li{
+font-size:medium;
+}
+.Titulo{
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.input{
+width:50px;height:50px;
+transition:all 2s;
+
+}
+.input:focus{
+width:70px;
+font-size:16px;
+}
+.logoIg{
+height:30px;
+width:30px;
+}
+.legend{
+text-align:center;
+align-items:center;
+border:black 1px;
+margin: 10px;
+
+}
+.formulario{
+margin:40px;
+}
+
+
+.list-group{
+margin:50px;
+padding:5px;
+
+}
+.titulo__menu{
+display:flex;
+align-items:center;
+justify-content:center;
+}
+.titulo__menu--over:hover{
+color:black;
+}
+/*-----------------------------------------*/
+.grid-containerF {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  align-items: center;
+  justify-items: center;
+    }
+.grid-itemF {
+    padding: 20px;
+    font-size: 30px;
+    } 
+    
+.card{
+margin: 50px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-items: center;
+}
+.navbar1{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: min-content;
+  align-items: center;
+  justify-items: center;
+
+}
+.d-block{
+width: min-content;
+height: 600px;
+}
+.title1{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.tarjeta{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-left: 800px;
+  margin-bottom: 50px;
+}
+
+.a1{
+  @extend .card;
+  padding: 50px;
+.btn{
+  margin: 5px;
+} }
+.accordion-item{
+  margin: 50px;
+}
+.frame2{
+ margin-left: auto;
+ margin-right: auto;
+ width: 300px;
+ height: 300px;
+}
+.info{
+  margin-bottom:10px;
+}
